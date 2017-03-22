@@ -3,7 +3,7 @@ package com.wf.common.slideexpandlistview;
 import android.view.View;
 import android.widget.ListAdapter;
 
-import com.lnint.common.R;
+import com.wf.common.R;
 
 /**
  * ListAdapter that adds sliding functionality to a list.

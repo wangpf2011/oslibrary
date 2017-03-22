@@ -3,7 +3,7 @@ package com.wf.pattern.mvvm.model;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
-import com.lnint.pattern.BR;
+import com.wf.pattern.BR;
 
 /**
  * 用户实体

@@ -6,7 +6,7 @@ import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseStream;
 import com.lidroid.xutils.http.client.HttpRequest;
-import com.lnint.utils.HttpCookieStore;
+import com.wf.utils.HttpCookieStore;
 
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;

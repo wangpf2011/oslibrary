@@ -15,7 +15,7 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Window;
 
-import com.lnint.utils.LogUtils;
+import com.wf.utils.LogUtils;
 
 /**
  * 应用程序Activity的基类

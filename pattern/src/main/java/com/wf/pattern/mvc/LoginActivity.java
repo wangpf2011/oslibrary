@@ -9,12 +9,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lnint.common.ActivityCollection;
-import com.lnint.common.BaseActivity;
-import com.lnint.common.CustomHandler;
-import com.lnint.common.progressdialog.CustomProgressDialog;
-import com.lnint.pattern.R;
-import com.lnint.utils.StringUtils;
+import com.wf.common.ActivityCollection;
+import com.wf.common.BaseActivity;
+import com.wf.common.CustomHandler;
+import com.wf.common.progressdialog.CustomProgressDialog;
+import com.wf.pattern.R;
+import com.wf.utils.StringUtils;
 
 /**
  * MVC的Control层

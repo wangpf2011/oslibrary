@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lnint.common.ActivityCollection;
-import com.lnint.common.BaseActivity;
-import com.lnint.pattern.R;
+import com.wf.common.ActivityCollection;
+import com.wf.common.BaseActivity;
+import com.wf.pattern.R;
 
 /**
  * 登陆成功显示页面

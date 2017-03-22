@@ -11,7 +11,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 
-import com.lnint.common.R;
+import com.wf.common.R;
 
 import java.util.List;
 

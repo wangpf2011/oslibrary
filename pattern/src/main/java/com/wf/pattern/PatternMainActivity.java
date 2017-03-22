@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lnint.common.ActivityCollection;
-import com.lnint.common.BaseActivity;
+import com.wf.common.ActivityCollection;
+import com.wf.common.BaseActivity;
 import com.wf.pattern.mvc.LoginActivity;
 import com.wf.pattern.mvp.view.LoginMVPActivity;
 import com.wf.pattern.mvvm.view.LoginMVVMActivity;
