@@ -11,6 +11,7 @@ import org.xutils.x;
  */
 public class MyApplication extends Application {
     private DbManager.DaoConfig daoConfig;
+    private static MyApplication mInstance = null;
 
     public DbManager.DaoConfig getDaoConfig() {
         return daoConfig;
@@ -19,6 +20,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        mInstance = this;
         x.Ext.init(this);
         x.Ext.setDebug(BuildConfig.DEBUG);
 
@@ -33,5 +35,9 @@ public class MyApplication extends Application {
                         // ...
                     }
                 });//数据库更新操作
+    }
+
+    public static MyApplication getInstance() {
+        return mInstance;
     }
 }
