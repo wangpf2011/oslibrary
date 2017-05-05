@@ -1,13 +1,15 @@
-package com.wf.xutils3.utils;
+package com.wf.xutils3.demo;
 
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
+import com.wf.xutils3.utils.UserEntity;
 
 import org.xutils.common.Callback;
 import org.xutils.ex.HttpException;
 import org.xutils.http.RequestParams;
 import org.xutils.x;
+
 import java.io.File;
 
 /**
@@ -16,7 +18,7 @@ import java.io.File;
  * Created by wangpf on 2017/4/19.
  */
 
-public class xUtilsNetDemo {
+public class xUtilsNetDemo1 {
     String url = "http://localhost:8080/evms/vehicle/list";
 
     //post网络请求
