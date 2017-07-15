@@ -59,7 +59,7 @@ public class UploadApkService extends Service {
      * 初始化通知栏
      */
     private void initNotify() {
-        notification = new Notification(R.mipmap.logo, "下载提醒", System.currentTimeMillis());
+        notification = new Notification(R.mipmap.ic_launcher, "下载提醒", System.currentTimeMillis());
         notification.contentView = new RemoteViews(getApplication().getPackageName(), R.layout.layout_down_progress);
         manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
     }
