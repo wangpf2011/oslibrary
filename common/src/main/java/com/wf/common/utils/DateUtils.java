@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import android.annotation.SuppressLint;
 
@@ -68,36 +68,36 @@ public class  DateUtils {
 			return year+"-"+date.substring(0, 2)+"-"+date.substring(2, 4)+" "+date.substring(4, 6)+":"+date.substring(6)+":00";
 		}
 	}
-	
-	/** 
-     * 两个时间之间相差多少分钟 
-     * @param starttime 时间参数 1： 
-     * @param endtime 时间参数 2： 
+
+	/**
+     * 两个时间之间相差多少分钟
+     * @param starttime 时间参数 1：
+     * @param endtime 时间参数 2：
      * @return 相差分钟
-     */  
+     */
     @SuppressLint("SimpleDateFormat")
 	public static long getDistanceMin(String starttime, String endtime) {
         long min = 0;
         try {
-        	SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");  
-        	Date start = df.parse(starttime);  
-        	Date end = df.parse(endtime);  
-            long time1 = start.getTime();  
-            long time2 = end.getTime();  
-            long diff = time2 - time1;  
+        	SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        	Date start = df.parse(starttime);
+        	Date end = df.parse(endtime);
+            long time1 = start.getTime();
+            long time2 = end.getTime();
+            long diff = time2 - time1;
             /*if(time1<time2) {
-                diff = time2 - time1;  
+                diff = time2 - time1;
             }else {
-                diff = time1 - time2;  
+                diff = time1 - time2;
             }*/
-            min = diff / (1000 * 60);  
-        } catch (ParseException e) {  
-            e.printStackTrace();  
+            min = diff / (1000 * 60);
+        } catch (ParseException e) {
+            e.printStackTrace();
             return min;
-        }  
-        return min;  
-    } 
-    
+        }
+        return min;
+    }
+
     /**
 	 * @生成时间： 2015年4月30日 下午3:32:25
 	 * @方法说明： 将毫秒值格式的日期转成yyyy-MM-dd HH:mm:ss格式的字符串

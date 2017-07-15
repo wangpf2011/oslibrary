@@ -1,6 +1,6 @@
 package com.wf.pattern.mvp.presenter;
 
-import com.wf.utils.StringUtils;
+import com.wf.common.utils.StringUtils;
 import com.wf.pattern.mvp.model.ILoginNet;
 import com.wf.pattern.mvp.model.LoginNet;
 import com.wf.pattern.mvp.model.RespInfo;

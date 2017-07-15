@@ -1,4 +1,4 @@
-package com.wf.utils.common;
+package com.wf.common;
 
 /**
  * 实体基类

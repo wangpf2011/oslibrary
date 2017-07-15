@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import android.view.View;
 import android.view.ViewGroup;

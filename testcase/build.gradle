@@ -32,5 +32,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile 'org.robolectric:robolectric:3.0-rc3'
     compile project(':common')
-    compile project(':utils')
 }

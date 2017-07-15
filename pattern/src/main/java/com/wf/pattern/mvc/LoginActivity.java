@@ -14,7 +14,7 @@ import com.wf.common.BaseActivity;
 import com.wf.common.CustomHandler;
 import com.wf.common.progressdialog.CustomProgressDialog;
 import com.wf.pattern.R;
-import com.wf.utils.StringUtils;
+import com.wf.common.utils.StringUtils;
 
 /**
  * MVC的Control层

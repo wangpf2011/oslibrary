@@ -14,7 +14,7 @@ import com.wf.common.CustomHandler;
 import com.wf.common.progressdialog.CustomProgressDialog;
 import com.wf.pattern.R;
 import com.wf.pattern.databinding.ActivityMvvmLoginBinding;
-import com.wf.utils.StringUtils;
+import com.wf.common.utils.StringUtils;
 import com.wf.pattern.mvvm.model.LoginNet;
 import com.wf.pattern.mvvm.model.RespInfo;
 import com.wf.pattern.mvvm.model.User;

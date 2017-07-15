@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

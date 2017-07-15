@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import android.content.Context;
 import android.os.Environment;

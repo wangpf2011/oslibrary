@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import android.os.Debug;
 import android.os.Environment;

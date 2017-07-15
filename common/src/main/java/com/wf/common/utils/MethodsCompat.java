@@ -1,4 +1,4 @@
-package com.wf.utils;
+package com.wf.common.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
